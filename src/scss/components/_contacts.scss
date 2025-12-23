@@ -1,0 +1,315 @@
+.contacts {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 40px;
+  width: 1920px;
+  height: 1180px;
+  margin: 0 auto;
+}
+
+.contact-container {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 0px;
+  gap: 218px;
+  width: 1720px;
+  height: 682px;
+  margin: 0 auto;
+}
+
+.info-contact {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 40px;
+}
+
+.text-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 10px 0px;
+  gap: 35px;
+}
+
+.arenda-block {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 70px;
+}
+
+.arenda-button {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 4px;
+  gap: 10px;
+  width: 165px;
+  height: 28px;
+  background: var(--color-orange);
+  border-radius: 20px;
+  border: none;
+  cursor: pointer;
+  font-family: "sans";
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 20px;
+  color: var(--color-white);
+  text-align: center;
+  transition: all 0.3s ease;
+}
+
+.route-button {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 15px;
+}
+
+.buttons-route {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px;
+  gap: 15px;
+}
+
+.btn-r {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  gap: 10px;
+  margin: 0 auto;
+  width: 165px;
+  height: 40px;
+  background: var(--color-grey);
+  border-radius: 20px;
+  font-family: "sans";
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 20px;
+  color: var(--color-white);
+  cursor: pointer;
+  transition: all 0.3s ease;
+  text-align: center;
+  border: none;
+}
+
+.btn-r:hover{
+    background-color: var(--color-orange);
+    color: var(--color-white);
+}
+
+.btn-r:focus{
+    background-color: var(--color-orange);
+    color: var(--color-white);
+}
+
+.title-route-button {
+  font-size: 2rem;
+  font-family: "sans";
+  font-weight: 500;
+  color: var(--color-grey);
+}
+
+.input-field {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 10px;
+  gap: 10px;
+  width: 351px;
+  height: 40px;
+  border: 1px solid var(--color-grey-40);
+  border-radius: 20px;
+  font-family: "sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 20px;
+  color: var(--color-grey);
+  background-color: transparent;
+  outline: none;
+  transition: all 0.3s ease;
+}
+
+.input-field::placeholder {
+  color: var(--color-grey-40);
+}
+
+.input-field:focus {
+  border-color: var(--color-orange);
+}
+
+.route-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px 100px;
+  gap: 40px;
+  width: 1920px;
+  height: 300px;
+}
+
+.title-route {
+  font-size: 2.25rem;
+  font-family: "sans";
+  font-weight: 600;
+  color: var(--color-grey);
+}
+
+.cards-route {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px;
+  gap: 220px;
+}
+
+@media (max-width: 768px) {
+  .contacts {
+    width: 100%;
+    height: auto;
+    padding: 0 20px;
+    gap: 30px;
+    align-items: center;
+  }
+  
+  .contact-container {
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    gap: 40px;
+  }
+  
+  .info-contact {
+    width: 100%;
+    gap: 30px;
+    order: 1;
+  }
+  
+  .map-contact {
+    width: 100%;
+    order: 2; 
+  }
+  
+  .map-contact iframe {
+    width: 100%;
+    height: 300px;
+    border-radius: 12px;
+  }
+  
+  .text-info {
+    width: 100%;
+    gap: 25px;
+  }
+  
+  .arenda-block {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+  }
+  
+  .route-button {
+    width: 100%;
+    gap: 15px;
+  }
+  
+  .title-route-button {
+    font-size: 1.5rem;
+    line-height: 1.2;
+  }
+  
+  .input-field {
+    width: 100%;
+    max-width: 100%;
+  }
+  
+  .buttons-route {
+    flex-direction: column;
+    width: 100%;
+    gap: 10px;
+  }
+  
+  .btn-r {
+    width: 100%;
+    max-width: 280px;
+    margin: 0;
+  }
+  
+  .route-container {
+    width: 100%;
+    height: auto;
+    padding: 0 20px;
+    gap: 25px;
+  }
+  
+  .title-route {
+    font-size: 1.75rem;
+    text-align: center;
+    width: 100%;
+  }
+  
+  .cards-route {
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .contacts {
+    padding: 0 15px;
+    gap: 25px;
+  }
+  
+  .contact-container {
+    gap: 30px;
+  }
+  
+  .info-contact {
+    gap: 25px;
+  }
+  
+  .text-info {
+    gap: 20px;
+  }
+  
+  .map-contact iframe {
+    height: 250px;
+  }
+  
+  .title-route-button {
+    font-size: 1.25rem;
+  }
+  
+  .arenda-button {
+    width: 140px;
+    height: 26px;
+    font-size: 0.875rem;
+  }
+  
+  .title-route {
+    font-size: 1.5rem;
+  }
+  
+  .btn-r {
+    height: 36px;
+    font-size: 0.875rem;
+  }
+}

@@ -1,0 +1,26 @@
+<div class="hero-adv">
+    <div class="img-hero">
+        <img src="../assets/images/about.webp" alt="О ТРЦ">
+        <div class="image-overlay"></div>
+        <div class="hero-text">
+            <p class="hero-title">Посетите ТРЦ «Миллениум»! Мы рады всем гостям и готовы предложить вам всё необходимое в одном месте: от ежедневных покупок и бытовых услуг до вкусного отдыха и ярких развлечений для всей семьи</p>
+        </div>
+    </div>
+    <div class="cards-hero">
+        @@include('../components/_card-hero.html', {
+            'iconHero': 'assets/img/shop.svg',
+            'titlehero': 'МАГАЗИНЫ И УСЛУГИ',
+            'texthero': 'Продукты, электроника, одежда и обувь, спортивный инвентарь. Все необходимое для жизни и отдыха ждет в торговом комплексе.'
+        })
+        @@include('../components/_card-hero.html', {
+            'iconHero': 'assets/img/food.svg',
+            'titlehero': 'КАФЕ И РАЗВЛЕЧЕНИЯ',
+            'texthero': 'Перекусите в кафе, повеселитесь с детьми или научитесь танцам в известной школе. Идеальное место для отдыха и встреч.'
+        })
+        @@include('../components/_card-hero.html', {
+            'iconHero': 'assets/img/parking.svg',
+            'titlehero': 'ПАРКИНГ',
+            'texthero': 'Комфорт начинается с удобной парковки. Крытая 6-этажная парковка. В здании также доступна автомойка. Приезжайте с легкостью!'
+        })
+    </div>
+</div>

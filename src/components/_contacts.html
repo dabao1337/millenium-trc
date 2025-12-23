@@ -1,0 +1,72 @@
+<div class="contacts">
+    @@include('../components/_breadcrumbs.html',{ 'tire1':'—',
+  'secpage':'Контакты', 'tire2':'', 'thpage':'', 'titlepage': 'КОНТАКТЫ' })
+  <div class="contact-container">
+    <div class="info-contact">
+        <div class="text-info">
+            @@include('../components/_info-card.html', {
+                'titleinfo': 'Адрес',
+                'textinfo': 'г.Казань, ул. Чистопольская, д.69'
+            })
+            @@include('../components/_info-card.html', {
+                'titleinfo': 'Контактный телефон',
+                'textinfo': '+7 (987) 225-01-40'
+            })
+            <div class="arenda-block">
+                @@include('../components/_info-card.html', {
+                    'titleinfo': 'Администратор',
+                    'textinfo': '+7 (991) 190-58-49'
+                })
+                <a href="index5.html" class="arenda-button">Арендаторам</a>
+            </div>
+            @@include('../components/_info-card.html', {
+                'titleinfo': 'Ежедневно',
+                'textinfo': '10.00 - 22.00'
+            })
+            @@include('../components/_info-card.html', {
+                'titleinfo': 'Эл. почта',
+                'textinfo': 'tc_millenium-69@mail.ru'
+            })
+        </div>
+
+        <div class="route-button">
+            <div class="title-route-button">Проложить маршрут</div>
+            <input type="text" class="input-field" placeholder="Введите ваш адрес">
+            <div class="buttons-route">
+                <button class="btn-r">На автомобиле</button>
+                <button class="btn-r">Пешком</button>
+            </div>
+        </div>
+        
+    </div>
+    <div class="map-contact">
+        <iframe 
+  src="https://yandex.ru/map-widget/v1/?ll=49.139785%2C55.819985&pt=49.141574%2C55.819975%2Cpm2dol&z=16.6" 
+  width="877" 
+  height="677" 
+  frameborder="0" 
+  allowfullscreen="true" 
+  style="position:relative;">
+</iframe>
+    </div>
+  </div>
+
+
+  <div class="route-container">
+    <div class="title-route">Как добраться</div>
+    <div class="cards-route">
+        @@include('../components/_card-route.html', {
+            'nameroute': 'На автомобиле',
+            'textroute': 'Удобный подъезд со стороны ул. Чистопольская. Есть указатели и широкий въезд на парковку.'
+        })
+        @@include('../components/_card-route.html', {
+            'nameroute': 'На общественном транспорте',
+            'textroute': 'Автобусы: 74, 74а, 75 <br> Троллейбусы: 1 <br> Метро: станция Козья Слобода'
+        })
+        @@include('../components/_card-route.html', {
+            'nameroute': 'Пешком',
+            'textroute': 'Мы находимся в 5 минутах ходьбы от набережной. Рядом крупные ориентиры и удобные тротуары.'
+        })
+    </div>
+  </div>
+</div>

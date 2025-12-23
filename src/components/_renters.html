@@ -1,0 +1,160 @@
+<div class="renters">
+  @@include('../components/_breadcrumbs.html',{ 'tire1':'—',
+  'secpage':'Контакты', 'tire2':'—', 'thpage':'Арендаторам', 'titlepage':
+  'АРЕНДАТОРАМ' })
+
+  <div class="request">
+    <div class="title-request">Оставить заявку на аренду</div>
+
+    <form class="rental-application-form">
+      <div class="form-row">
+        <div class="form-field-group">
+          <div class="field-label-wrapper">
+            <div class="field-label">Название компании</div>
+            <div class="required-indicator">*</div>
+          </div>
+          <input
+            type="text"
+            class="form-input"
+            placeholder="ООО Пример"
+            required
+          />
+        </div>
+
+        <div class="form-field-group">
+          <div class="field-label-wrapper">
+            <div class="field-label">Сфера деятельности</div>
+            <div class="required-indicator">*</div>
+          </div>
+          <div class="select-wrapper">
+            <select class="form-input" required>
+              <option value="" selected disabled>Выберите сферу</option>
+              <option value="retail">Розничная торговля</option>
+              <option value="services">Услуги</option>
+              <option value="food">Общественное питание</option>
+              <option value="entertainment">Развлечения</option>
+              <option value="other">Другое</option>
+            </select>
+          </div>
+        </div>
+      </div>
+
+      <div class="form-row">
+        <div class="form-field-group">
+          <div class="field-label-wrapper">
+            <div class="field-label">Контактное лицо</div>
+            <div class="required-indicator">*</div>
+          </div>
+          <input
+            type="text"
+            class="form-input"
+            placeholder="Иванов Иван Иванович"
+            required
+          />
+        </div>
+
+        <div class="form-field-group">
+          <div class="field-label-wrapper">
+            <div class="field-label">Должность</div>
+          </div>
+          <input type="text" class="form-input" placeholder="Директор" />
+        </div>
+      </div>
+
+      <div class="form-row">
+        <div class="form-field-group">
+          <div class="field-label-wrapper">
+            <div class="field-label">Телефон</div>
+            <div class="required-indicator">*</div>
+          </div>
+          <input
+            type="tel"
+            class="form-input"
+            placeholder="+7 900 000-00-00"
+            required
+          />
+        </div>
+
+        <div class="form-field-group">
+          <div class="field-label-wrapper">
+            <div class="field-label">Email</div>
+            <div class="required-indicator">*</div>
+          </div>
+          <input
+            type="email"
+            class="form-input"
+            placeholder="example@company.ru"
+            required
+          />
+        </div>
+      </div>
+
+      <div class="form-row">
+        <div class="form-field-group">
+          <div class="field-label-wrapper">
+            <div class="field-label">Желаемая площадь, м²</div>
+          </div>
+          <input type="number" class="form-input" placeholder="50" />
+        </div>
+
+        <div class="form-field-group">
+          <div class="field-label-wrapper">
+            <div class="field-label">Бюджет аренды, ₽/мес</div>
+          </div>
+          <input type="text" class="form-input" placeholder="100.000" />
+        </div>
+      </div>
+
+      <div class="full-width-field">
+        <div class="field-label-wrapper">
+          <div class="field-label">Дополнительная информация</div>
+        </div>
+        <div class="textarea-container">
+          <textarea
+            placeholder="Расскажите о вашем проекте, пожеланиях по расположению, сроках открытия и других деталях"
+            class="form-textarea"
+          ></textarea>
+        </div>
+      </div>
+
+      <div class="form-actions">
+        <button type="submit" class="submit-button">Отправить заявку</button>
+      </div>
+    </form>
+  </div>
+  <div class="advantage">
+    <div class="title-adv">Преимущества работы в ТРЦ «Миллениум»</div>
+    <div class="adv-cards">
+        @@include('../components/_card-hero.html', {
+            'iconHero': 'assets/img/people.svg',
+            'titlehero': 'ВЫСОКАЯ ПРОХОДИМОСТЬ',
+            'texthero': 'Ежедневно наш торговый центр посещает более 15 000 человек. Средний чек покупателя - 3 500 рублей.'
+        })
+        @@include('../components/_card-hero.html', {
+            'iconHero': 'assets/img/stat.svg',
+            'titlehero': 'ЭФФЕКТИВНЫЙ МАРКЕТИНГ',
+            'texthero': 'Комплексные рекламные кампании, активное продвижение в соцсетях, участие в совместных акциях и мероприятиях.'
+        })
+        @@include('../components/_card-hero.html', {
+            'iconHero': 'assets/img/sec.svg',
+            'titlehero': 'ПОЛНАЯ БЕЗОПАСНОСТЬ',
+            'texthero': 'Круглосуточная охрана, система видеонаблюдения, противопожарная безопасность, страховка помещений.'
+        })
+        @@include('../components/_card-hero.html', {
+            'iconHero': 'assets/img/tools.svg',
+            'titlehero': 'ТЕХНИЧЕСКАЯ ПОДДЕРЖКА',
+            'texthero': 'Современные инженерные системы, регулярное обслуживание, помощь в ремонте и перепланировке помещений.'
+        })
+        @@include('../components/_card-hero.html', {
+            'iconHero': 'assets/img/parking.svg',
+            'titlehero': 'УДОБНАЯ ПАРКОВКА',
+            'texthero': 'Бесплатная парковка на 500+ мест, отдельные места для сотрудников, удобный подъезд для разгрузки товара.'
+        })
+        @@include('../components/_card-hero.html', {
+            'iconHero': 'assets/img/hands.svg',
+            'titlehero': 'ГИБКИЕ УСЛОВИЯ АРЕНДЫ',
+            'texthero': 'Индивидуальный подход к каждому арендатору, различные форматы сотрудничества, отсрочка платежей для новых партнеров.'
+        })
+    </div>
+  </div>
+</div>

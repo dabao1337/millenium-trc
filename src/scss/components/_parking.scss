@@ -1,0 +1,477 @@
+.parking {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 40px;
+}
+
+.important-info {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 165px;
+  width: 1720px;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+.text-im-info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 30px 0px;
+  gap: 80px;
+  width: 850px;
+  height: 529px;
+}
+
+.title-im-info {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  width: 850px;
+  height: 70px;
+  font-size: 1.5rem;
+  font-family: "sans";
+  font-weight: 500;
+  color: var(--color-grey-40);
+}
+
+.list-info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 20px;
+}
+
+.title-info-list {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 15px;
+}
+
+.name-list {
+  font-size: 2.125rem;
+  font-family: "sans";
+  font-weight: 600;
+  color: var(--color-grey);
+}
+
+.parking-info-list {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  width: 850px;
+  height: 136px;
+}
+
+.parking-info-list-content {
+  width: 652px;
+  height: 136px;
+  font-family: "sans";
+  font-weight: 400;
+  font-size: 1.25rem;
+  line-height: 34px;
+  color: var(--color-grey);
+}
+
+.parking-info-list-content ul {
+  margin: 0;
+  padding-left: 24px;
+  list-style-position: outside;
+  list-style-type: disc;
+}
+
+.parking-info-list-content li {
+  margin-bottom: 8px;
+  color: var(--color-grey);
+}
+
+.img-parking {
+  width: 705px;
+}
+
+.general-info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 40px;
+  width: 1720px;
+  margin: 40px auto 0;
+  box-sizing: border-box;
+}
+
+.title-general-info {
+  font-size: 2.125rem;
+  font-family: "sans";
+  font-weight: 600;
+  color: var(--color-grey);
+  text-align: left;
+  width: 100%;
+}
+
+.cards-general {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 20px;
+  width: 100%;
+}
+
+.tariff {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 40px;
+  width: 1720px;
+  margin: 40px auto 0;
+  box-sizing: border-box;
+}
+
+.title-tariff {
+  font-size: 2.125rem;
+  font-family: "sans";
+  font-weight: 600;
+  color: var(--color-grey);
+  width: 100%;
+}
+
+.tariff-table-container {
+  width: 100%;
+  overflow-x: auto;
+}
+
+.tariff-table {
+  width: 100%;
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.tariff-table th,
+.tariff-table td {
+  border: 1px solid var(--color-grey-40);
+  text-align: left;
+}
+
+.tariff-header.tariff-cell {
+  background: var(--color-orange);
+  font-family: "sans";
+  font-weight: 500;
+  font-size: 1.625rem;
+  line-height: 33px;
+  color: var(--color-grey);
+  padding: 10px;
+  height: 72px;
+  width: auto;
+}
+
+.tariff-cell,
+.tariff-cell-note {
+  font-family: "sans";
+  font-weight: 400;
+  font-size: 1.625rem;
+  line-height: 33px;
+  color: var(--color-grey);
+  padding: 10px;
+  height: 72px;
+  vertical-align: middle;
+}
+
+.tariff-row-bg {
+  background: var(--color-beige);
+}
+
+.tariff-row-white {
+  background: var(--color-white);
+}
+
+.tariff-table th:nth-child(1),
+.tariff-table td:nth-child(1) {
+  width: 415px;
+}
+
+.tariff-table th:nth-child(2),
+.tariff-table td:nth-child(2) {
+  width: 255px;
+}
+
+.tariff-table th:nth-child(3),
+.tariff-table td:nth-child(3) {
+  width: 345px;
+}
+
+.tariff-table th:nth-child(4),
+.tariff-table td:nth-child(4) {
+  width: 290px;
+}
+
+.tariff-table th:nth-child(5),
+.tariff-table td:nth-child(5) {
+  width: 415px;
+}
+
+.rules {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 40px;
+  width: 1720px;
+  margin: 40px auto 0;
+  box-sizing: border-box;
+}
+
+.title-rules {
+  font-size: 2.125rem;
+  font-family: "sans";
+  font-weight: 600;
+  color: var(--color-grey);
+  width: 100%;
+}
+
+.cards-rules {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 30px;
+  width: 1720px;
+  height: 370px;
+}
+
+@media (max-width: 768px) {
+  .parking {
+    width: 100%;
+    padding: 0 20px;
+    gap: 30px;
+    box-sizing: border-box;
+  }
+
+  .important-info {
+    flex-direction: column;
+    width: 100%;
+    gap: 30px;
+    padding: 0;
+  }
+
+  .text-im-info {
+    width: 100%;
+    height: auto;
+    padding: 0;
+    gap: 40px;
+  }
+
+  .title-im-info {
+    width: 100%;
+    height: auto;
+    font-size: 1.125rem;
+    text-align: left;
+    line-height: 1.5;
+  }
+
+  .list-info {
+    width: 100%;
+    gap: 15px;
+  }
+
+  .title-info-list {
+    gap: 10px;
+  }
+
+  .name-list {
+    font-size: 1.5rem;
+  }
+
+  .title-info-list svg {
+    width: 40px;
+    height: 40px;
+  }
+
+  .parking-info-list {
+    width: 100%;
+    height: auto;
+  }
+
+  .parking-info-list-content {
+    width: 100%;
+    height: auto;
+    font-size: 1rem;
+    line-height: 28px;
+  }
+
+  .parking-info-list-content ul {
+    padding-left: 20px;
+  }
+
+  .parking-info-list-content li {
+    margin-bottom: 10px;
+  }
+
+  .img-parking {
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    order: -1;
+  }
+
+  .important-info {
+    flex-direction: column;
+  }
+
+  .important-info > .text-im-info {
+    order: 2;
+  }
+
+  .important-info > .img-parking {
+    order: 1;
+  }
+
+  .general-info,
+  .tariff,
+  .rules {
+    width: 100%;
+    gap: 30px;
+  }
+
+  .title-general-info,
+  .title-tariff,
+  .title-rules {
+    font-size: 1.5rem;
+    text-align: left;
+  }
+
+  .cards-general {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .cards-general .general-card {
+    width: 100%;
+    max-width: 400px;
+  }
+
+  .tariff-table-container {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .tariff-table {
+    min-width: 700px;
+  }
+
+  .tariff-header.tariff-cell,
+  .tariff-cell,
+  .tariff-cell-note {
+    font-size: 1rem;
+    line-height: 1.3;
+    height: 60px;
+    padding: 8px;
+  }
+
+  .tariff-cell-note {
+    font-size: 0.9375rem;
+    text-align: center;
+  }
+
+  .cards-rules {
+    width: 100%;
+    height: auto;
+    gap: 20px;
+  }
+
+  .cards-rules .rule-card {
+    width: 100%;
+    height: auto;
+    min-height: 50px;
+  }
+
+  .cards-rules .number-rule {
+    width: 40px;
+    height: 40px;
+    font-size: 1.25rem;
+  }
+
+  .cards-rules .text-rule {
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+}
+
+@media (max-width: 480px) {
+  .parking {
+    padding: 0 15px;
+    gap: 25px;
+  }
+
+  .title-im-info {
+    font-size: 1rem;
+  }
+
+  .name-list,
+  .title-general-info,
+  .title-tariff,
+  .title-rules {
+    font-size: 1.25rem;
+  }
+
+  .title-info-list svg {
+    width: 35px;
+    height: 35px;
+  }
+
+  .parking-info-list-content {
+    font-size: 0.9375rem;
+    line-height: 26px;
+  }
+
+  .tariff-header.tariff-cell,
+  .tariff-cell,
+  .tariff-cell-note {
+    font-size: 0.875rem;
+    height: 55px;
+    padding: 6px;
+  }
+
+  .tariff-cell-note {
+    font-size: 0.8125rem;
+  }
+
+  .cards-general {
+    gap: 15px;
+  }
+
+  .cards-general .general-card {
+    max-width: 100%;
+  }
+
+  .cards-rules {
+    gap: 15px;
+  }
+
+  .cards-rules .rule-card {
+    min-height: 45px;
+  }
+
+  .cards-rules .number-rule {
+    width: 35px;
+    height: 35px;
+    font-size: 1.125rem;
+  }
+
+  .cards-rules .text-rule {
+    font-size: 0.9375rem;
+  }
+}
